@@ -1,20 +1,20 @@
 package MainGame;
 
-public class floor {
+public class Floor {
 
     private String name;
-    private room[] rooms;
+    private Room[] rooms;
     private String[] roomName;
     private int roomCount = 0;
 
-    public floor(String name, int length)
+    public Floor(String name, int length)
     {
         this.name = name;
-        rooms = new room[length];
+        rooms = new Room[length];
         roomName = new String[length];
     }
 
-    public void addRoom(room newRoom)
+    public void addRoom(Room newRoom)
     {
         this.rooms[roomCount] = newRoom;
         roomName[roomCount] = newRoom.getName();
