@@ -3,29 +3,29 @@ package MainGame;
 public class Floor {
 
     private String name;
-    private Room[] Rooms;
+    private Room[] rooms;
     private String[] roomName;
     private int roomCount = 0;
 
     public Floor(String name, int length)
     {
         this.name = name;
-        Rooms = new Room[length];
+        rooms = new Room[length];
         roomName = new String[length];
     }
 
     public void addRoom(Room newRoom)
     {
-        this.Rooms[roomCount] = newRoom;
+        this.rooms[roomCount] = newRoom;
         roomName[roomCount] = newRoom.getName();
         roomCount++;
     }
 
     public String toString() {
         System.out.print("Room names in " + name + " are: ");
-        for (int x = 0; x < Rooms.length; x++)
+        for (int x = 0; x < rooms.length; x++)
         {
-            if(x < Rooms.length - 1)
+            if(x < rooms.length - 1)
             {
                 System.out.print(roomName[x] + ", ");
             }
