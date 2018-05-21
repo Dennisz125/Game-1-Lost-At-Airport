@@ -1,1 +1,1 @@
-typeSearchIndex = [{"p":"cellularData","l":"Country"},{"p":"cellularData","l":"CSVReader"},{"p":"cellularData","l":"SubscriptionYear"},{"p":"cellularData","l":"TestCountry"}]
+typeSearchIndex = [{"p":"MainGame","l":"Floor"},{"p":"MainGame","l":"Game"},{"p":"MainGame","l":"Player"},{"p":"MainGame","l":"Room"},{"p":"MainGame","l":"TestGame"}]
